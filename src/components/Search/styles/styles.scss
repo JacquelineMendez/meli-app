@@ -1,0 +1,73 @@
+$colorShadow:  #d0d3d4;
+$colorFontButton:#4F6CFF;
+$colorButton: #aecadf;
+$colorDarkShadow: #808b96;
+
+button{
+    background-color:$colorButton ;
+    color: $colorFontButton;
+    width: 90px;
+    font-weight: 700;
+    padding: 10px;
+    height: 42px;
+    border:{
+        style: none;
+        radius: 3px;
+    }
+    margin:{
+        left: 435px;
+        top: 68px;
+    } 
+}
+input{
+    border: 0px;
+    width: 350px;
+    margin-left: 5px;
+}
+.input{
+    margin:{
+        top: 68px;
+        left: 30px;
+       }
+    position: absolute;
+    border:{
+      style:solid;
+      color: $colorDarkShadow;
+      width: 1px;
+      radius:3px;
+    } 
+    padding: 10px;
+}
+.frame{
+    border:{
+        radius:3px;
+        style:solid;
+        color: $colorShadow;
+        width: 1px;
+     bottom:{
+        width: 2px;
+         }
+        }
+    width: 550px;
+    height:150px;
+    margin:{
+        left: 400px;
+        top:30px;
+    }
+}
+.lupaImage{
+    width:15px;
+    height:15px;
+}
+.text{
+    margin:{
+        top: 30px;
+        left:30px;
+    }
+    position: absolute;
+    font-weight: 600;
+}
+
+
+
+

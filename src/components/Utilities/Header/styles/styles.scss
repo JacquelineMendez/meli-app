@@ -1,0 +1,23 @@
+$colorHeader: #fff258;
+$colorBorder:  #d0d3d4;
+
+.HeaderContainer{
+    background-color: $colorHeader;
+    width: 1550px;
+    height:60px;
+    border-bottom: solid;
+    border-color: $colorBorder;
+    border-width: 2px;
+}
+.helpLink{
+    font-size: 15px;
+    margin-left: 1020px;
+    margin-top: 18px;
+    position: absolute;
+}
+.logoImage{
+    margin-left: 60px;
+    margin-top: 6px;
+    height:52px;
+    width:150px;
+}
