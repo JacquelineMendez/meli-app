@@ -4,6 +4,7 @@ import lupaImage from "./lupa.png";
 import  "./styles/styles.scss";
 
 export const Search = () => {
+
   return (
     <>
       <Header/>
@@ -11,10 +12,10 @@ export const Search = () => {
           <text className="text">Indicá el id del producto</text>
           <div className="input">
           <img className="lupaImage" src={lupaImage}/>
-           <input type ="search" 
-        placeholder ="Ej.. MLA8339779"
-        width="80px"
-        />
+          <input type ="search" 
+                  placeholder ="Ej.. MLA8339779"
+                  width="80px"
+       >$category_id</input>
         </div>
         <button className="buttonSearch"> Buscar</button>
         </div>
